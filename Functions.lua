@@ -176,7 +176,6 @@ do
                     local pos = Camera:WorldToViewportPoint(Value.Position)
                     local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y + 36)).magnitude
                     if magnitude < shortestDistance and Find(List, Value) then
-                        print("GOT PART")
                         closestPart = Value
                         shortestDistance = magnitude
                     end
