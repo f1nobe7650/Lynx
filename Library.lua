@@ -10,7 +10,7 @@ local hs = game:GetService("HttpService")
 local plrs = game:GetService("Players")
 local stats = game:GetService("Stats")
 -- UI Variables
-local library = {
+getgenv().library = {
     drawings = {},
     hidden = {},
     connections = {},
