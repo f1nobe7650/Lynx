@@ -1,12 +1,12 @@
 settings = {
-    enabled = false; -- / true / false
+    enabled = true; -- / true / false
     minCameraDistance = 1; -- / any number
     hatTransparency = .35; -- / 0 - 1 (0 being invisible)
     circleTransparency = 1; -- / 0 - 1 (0 being invisible)
     height = .75; -- / any number
     radius = 1; -- /-- any number
     sides = 25; -- / any number
-    rainbow = false; -- / true / false
+    rainbow = true; -- / true / false
     color = Color3.fromRGB(128,18,255); -- / 0-255,0-255,0-255
     offset = Vector3.new(0,.75,0); -- / number,number,number (studs offset from head center)
  }
